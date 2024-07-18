@@ -16,3 +16,14 @@ followed up by checking out the next tags:
 * v0.0.8: Do some refactors (base test, browser factory), add explicit waits and enable parallel runs
 * v0.0.9: Add PageFactory, use ChromeDriverManager
 * v0.0.10: Enable executions on remote server
+
+# Installation
+
+```bash
+# Arch Linux
+yay -S geckodriver
+```
+
+```java
+mvn clean install
+```
